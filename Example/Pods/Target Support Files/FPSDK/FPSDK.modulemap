@@ -1,0 +1,6 @@
+framework module FPSDK {
+  umbrella header "FPSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

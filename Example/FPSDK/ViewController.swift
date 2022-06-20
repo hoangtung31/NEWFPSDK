@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import FPSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        FPSDKManager.shared.greeting()
     }
 
     override func didReceiveMemoryWarning() {
