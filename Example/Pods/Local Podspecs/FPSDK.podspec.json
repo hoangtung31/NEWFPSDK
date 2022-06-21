@@ -19,7 +19,7 @@
     "ios": "10.0"
   },
   "swift_versions": "5.0",
-  "source_files": "FPSDK/Classes/**/*",
+  "vendored_frameworks": "FPSDK.framework",
   "dependencies": {
     "Alamofire": [
 

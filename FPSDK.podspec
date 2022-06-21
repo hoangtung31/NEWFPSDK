@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
-  s.source_files = 'FPSDK/Classes/**/*'
-  
+#  s.source_files = 'FPSDK/Classes/**/*'
+  s.vendored_frameworks = 'FPSDK.framework'
   # s.resource_bundles = {
   #   'FPSDK' => ['FPSDK/Assets/*.png']
   # }

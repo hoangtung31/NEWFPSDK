@@ -11,14 +11,13 @@ import Alamofire
 //import PocketSVG
 //import RxSwift
 //import IBAnimatable
-import FPSDK
 
 public class FPSDKManager {
     private init (){}
     public static let shared = FPSDKManager()
     
     public func greeting() {
-        print("Greeting from FPSDK...")
+        print("Greeting from FPSDK!")
         fetchFilms()
     }
     

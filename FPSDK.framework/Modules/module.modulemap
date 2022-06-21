@@ -1,0 +1,11 @@
+framework module FPSDK {
+  umbrella header "FPSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FPSDK.Swift {
+    header "FPSDK-Swift.h"
+    requires objc
+}
