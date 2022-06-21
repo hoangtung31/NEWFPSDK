@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hoangtung31' => 'tunghd3@fpt.com.vn' }
   s.source           = { :git => 'https://github.com/hoangtung31/NEWFPSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
@@ -36,14 +35,14 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'Alamofire'
-   s.dependency 'lottie-ios'
+#   s.dependency 'lottie-ios'
    s.dependency 'SnapKit'
-   s.dependency 'IBAnimatable'
-   s.dependency 'AlamofireImage'
-   s.dependency 'CocoaMQTT'
-   s.dependency 'MarqueeLabel'
-   s.dependency 'RxSwift'
-   s.dependency 'IQKeyboardManager'
-   s.dependency 'KeychainSwift'
-   s.dependency 'PocketSVG'
+#   s.dependency 'IBAnimatable'
+#   s.dependency 'AlamofireImage'
+#   s.dependency 'CocoaMQTT'
+#   s.dependency 'MarqueeLabel'
+#   s.dependency 'RxSwift'
+#   s.dependency 'IQKeyboardManager'
+#   s.dependency 'KeychainSwift'
+#   s.dependency 'PocketSVG'
 end
